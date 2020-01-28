@@ -258,8 +258,8 @@ GameObject:
   - component: {fileID: 3966320199859633415}
   - component: {fileID: 9163146490060528721}
   - component: {fileID: 4760533929336497122}
-  - component: {fileID: 5190378047081262672}
   - component: {fileID: -5527983503680790980}
+  - component: {fileID: 5544927194842375100}
   m_Layer: 0
   m_Name: Human_Watchtower (1)
   m_TagString: Tower
@@ -318,18 +318,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: df50a3be1d2f01b47b07eae8601dfdbe, type: 3}
---- !u!114 &5190378047081262672
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1382552090218065876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daa59414e2a35b143bca2bd581202630, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &-5527983503680790980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -340,6 +328,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2b3980e8e7957d1438060824c160f285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5544927194842375100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382552090218065876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c71de3b88c8d3584896cbc32259431b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2762811048324785987

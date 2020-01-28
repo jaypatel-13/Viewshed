@@ -167,8 +167,8 @@ GameObject:
   - component: {fileID: 1066415563363495495}
   - component: {fileID: 1066415563365752003}
   - component: {fileID: 1066415563981215260}
-  - component: {fileID: 1066415563981215232}
   - component: {fileID: 1066415563981215235}
+  - component: {fileID: 8905074216067771985}
   m_Layer: 0
   m_Name: Old-timer bomb prefab
   m_TagString: Untagged
@@ -222,18 +222,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &1066415563981215232
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1066415563363660391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daa59414e2a35b143bca2bd581202630, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1066415563981215235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -244,5 +232,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb610fd4e1fadc94cbf470ea8550ac80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8905074216067771985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066415563363660391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c71de3b88c8d3584896cbc32259431b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

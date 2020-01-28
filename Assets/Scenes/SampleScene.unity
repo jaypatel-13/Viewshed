@@ -1529,7 +1529,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1822090906}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.3146644
+  m_Size: 0.31466436
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2214,7 +2214,7 @@ GameObject:
   - component: {fileID: 1074679593}
   - component: {fileID: 1074679592}
   - component: {fileID: 1074679595}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2307,7 +2307,7 @@ GameObject:
   - component: {fileID: 1104740733}
   m_Layer: 0
   m_Name: Main Camera (1)
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
