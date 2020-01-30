@@ -23,7 +23,16 @@ public class LineOfSight : MonoBehaviour
     {
         Vector3 pointA = origin.position;
         Vector3 pointB = destination.position;
+        Vector3 direction = pointB - pointA;
 
+        RaycastHit hit;
+        if(Physics.Raycast(origin.position,direction, out hit))
+        {
+            if(hit.collider.gameObject.name == "Destination")
+                lineRenderer.material.color = new Color(0,1,0,1);
+            else
+                lineRenderer.material.color = new Color(1,0,0,1);
+        }
         lineRenderer.SetPosition(0, pointA);
         lineRenderer.SetPosition(1,pointB);
     }
