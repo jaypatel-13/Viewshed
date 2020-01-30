@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
 
-public class ToggleDestroyer : MonoBehaviour
+public class Toggle : MonoBehaviour
 {
+	
 	public GameObject spawnee;
 	
     void Start()
