@@ -12,3 +12,4 @@ Temp/UnityLockfile
 *.json
 Library/StateCache/SceneView/a6e31e-mainStage.json
 *.json
+*.log
