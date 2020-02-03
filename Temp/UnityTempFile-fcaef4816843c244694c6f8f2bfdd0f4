@@ -1,11 +1,12 @@
 /target:library
 /nowarn:0169
-/out:Temp/Assembly-CSharp.dll
+/out:Temp/Assembly-CSharp-Editor.dll
 /debug:portable
 /optimize-
 /nostdlib+
 /preferreduilang:en-US
 /langversion:latest
+/reference:Library/ScriptAssemblies/Assembly-CSharp.dll
 /reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -67,6 +68,8 @@
 /reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+/reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 /reference:Library/ScriptAssemblies/Unity.Timeline.Editor.dll
 /reference:Library/ScriptAssemblies/Unity.VSCode.Editor.dll
 /reference:Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
@@ -76,7 +79,12 @@
 /reference:Library/ScriptAssemblies/Unity.Rider.Editor.dll
 /reference:Library/ScriptAssemblies/Unity.TextMeshPro.dll
 /reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+/reference:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll"
 /reference:Assets/Plugins/SmartExplorer.dll
+/reference:F:/BISAG/Unity/Viewshed/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll
 /reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll"
 /reference:"C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll"
@@ -288,21 +296,5 @@
 /define:ENABLE_LEGACY_INPUT_MANAGER
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-Assets\Scripts\AdjustRange.cs
-Assets\Scripts\CameraController.cs
-Assets\Scripts\CameraSwitch.cs
-Assets\Scripts\DestroyMe.cs
-Assets\Scripts\DragObject.cs
-Assets\Scripts\ExitScript.cs
-Assets\Scripts\Explorer.cs
-Assets\Scripts\ExtendedFlycam.cs
-Assets\Scripts\FreezeRotation.cs
-Assets\Scripts\GetCoordinates.cs
-Assets\Scripts\LineOfSight.cs
-Assets\Scripts\LoadScene.cs
-Assets\Scripts\MouseCoordinates.cs
-Assets\Scripts\RandomColor.cs
-Assets\Scripts\spawner.cs
-Assets\Scripts\TerrainResolution.cs
-Assets\Scripts\Toggle.cs
-Assets\Scripts\ToggleDestroyer.cs
+"Assets\Height Mapper\Editor\HeightMapFromTexture.cs"
+"Assets\Height Mapper\Editor\HeightMapper.cs"

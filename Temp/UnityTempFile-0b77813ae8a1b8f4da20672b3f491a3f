@@ -288,12 +288,13 @@
 /define:ENABLE_LEGACY_INPUT_MANAGER
 /define:CSHARP_7_OR_LATER
 /define:CSHARP_7_3_OR_NEWER
-Assets\DragLOS.cs
 Assets\Scripts\AdjustRange.cs
 Assets\Scripts\CameraController.cs
 Assets\Scripts\CameraSwitch.cs
 Assets\Scripts\DestroyMe.cs
+Assets\Scripts\DragLOS.cs
 Assets\Scripts\DragObject.cs
+Assets\Scripts\DragRemover.cs
 Assets\Scripts\ExitScript.cs
 Assets\Scripts\Explorer.cs
 Assets\Scripts\ExtendedFlycam.cs
@@ -307,3 +308,4 @@ Assets\Scripts\spawner.cs
 Assets\Scripts\TerrainResolution.cs
 Assets\Scripts\Toggle.cs
 Assets\Scripts\ToggleDestroyer.cs
+Assets\Scripts\TowerCoordinates.cs

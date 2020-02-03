@@ -292,6 +292,7 @@ Assets\Scripts\AdjustRange.cs
 Assets\Scripts\CameraController.cs
 Assets\Scripts\CameraSwitch.cs
 Assets\Scripts\DestroyMe.cs
+Assets\Scripts\DragLOS.cs
 Assets\Scripts\DragObject.cs
 Assets\Scripts\ExitScript.cs
 Assets\Scripts\Explorer.cs
@@ -306,3 +307,4 @@ Assets\Scripts\spawner.cs
 Assets\Scripts\TerrainResolution.cs
 Assets\Scripts\Toggle.cs
 Assets\Scripts\ToggleDestroyer.cs
+Assets\Scripts\TowerCoordinates.cs

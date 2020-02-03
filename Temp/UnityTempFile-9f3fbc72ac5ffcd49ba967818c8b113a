@@ -292,7 +292,9 @@ Assets\Scripts\AdjustRange.cs
 Assets\Scripts\CameraController.cs
 Assets\Scripts\CameraSwitch.cs
 Assets\Scripts\DestroyMe.cs
+Assets\Scripts\DragLOS.cs
 Assets\Scripts\DragObject.cs
+Assets\Scripts\DragRemover.cs
 Assets\Scripts\ExitScript.cs
 Assets\Scripts\Explorer.cs
 Assets\Scripts\ExtendedFlycam.cs
