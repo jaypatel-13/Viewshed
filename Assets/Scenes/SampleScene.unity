@@ -1670,7 +1670,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1822090907}
   m_HandleRect: {fileID: 1822090906}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0.9999999
   m_Size: 0.3146644
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -3034,9 +3034,10 @@ PrefabInstance:
     - target: {fileID: 1066415563981215260, guid: 84ce2226348784b49b33e22b24e90205,
         type: 3}
       propertyPath: m_Constraints
-      value: 112
+      value: 126
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 84ce2226348784b49b33e22b24e90205, type: 3}
 --- !u!1 &1221215806
 GameObject:
@@ -3889,8 +3890,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -340, y: -129}
-  m_SizeDelta: {x: 195.2, y: 30}
+  m_AnchoredPosition: {x: -327, y: -63.700012}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1480103675
 MonoBehaviour:
